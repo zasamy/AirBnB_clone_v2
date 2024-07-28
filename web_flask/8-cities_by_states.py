@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-starts a Flask web application
-"""
+starts a Flask web applicationstart Flask application"""
 
 from flask import Flask, render_template
 from models import *
@@ -23,4 +22,3 @@ def teardown_db(exception):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000')
-
